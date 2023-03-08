@@ -10,7 +10,7 @@ function getTextElementValueById(elementId) {
   const textElement = document.getElementById(elementId);
   const textElementValueString = textElement.innerText;
   const textElementValue = textElementValueString;
-  textElementValue;
+  return textElementValue;
 }
 
 function setTextElementValueById(elementId, newValue) {
